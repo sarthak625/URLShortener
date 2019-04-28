@@ -1,0 +1,16 @@
+{
+  "name": "urlshortener",
+  "version": "1.0.0",
+  "description": "A URL shortener using node and mongo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon www/bin/init.js"
+  },
+  "author": "Sarthak Negi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.5.4"
+  }
+}
