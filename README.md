@@ -11,10 +11,12 @@ npm install
 
 Set up a .env file with the following properties:
 
-> NODE_ENV=dev
-> PORT=5000
-> MONGODB_HOST=127.0.0.1
-> MONGODB_PORT=27017
+```env
+NODE_ENV=dev
+PORT=5000
+MONGODB_HOST=127.0.0.1
+MONGODB_PORT=27017
+```
 
 To start the application
 ```sh
