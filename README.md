@@ -42,6 +42,7 @@ npm start
 ## Example
 
 - localhost:5000/shorten POST
+ 
  Request body 
     > { "url" : "https://stackoverflow.com/questions/5710358/how-to-retrieve-post-query-parameters" }
 
