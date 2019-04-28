@@ -25,7 +25,7 @@ npm start
 
 - Route to shorten the URL
 
-    <Service>:<PORT>/shorten POST
+    'Service':'PORT'/shorten POST
 
     Request Body:
 ```js
@@ -36,14 +36,16 @@ npm start
 
 - Route to view the shortened URL
 
-    <Service:PORT>/<hash> GET
+     'Service':'PORT'/<hash> GET
 
 
 ## Example
 
-- localhost:5000/shorten POST
+- localhost:5000/shorten     ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `POST`
  
- Request body 
+  Request body 
+    
+    
     > { "url" : "https://stackoverflow.com/questions/5710358/how-to-retrieve-post-query-parameters" }
 
     ```js
@@ -55,6 +57,6 @@ npm start
     }
     ```
 
-- localhost:5000/MTAwMDE= GET
+- localhost:5000/MTAwMDE=     ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `GET`
 
 
